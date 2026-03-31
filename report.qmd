@@ -2,28 +2,25 @@
 title: Report
 ---
 
-TODO: Write your report in this `report.qmd` file using markdown syntax.
-
 ## What this was lab about
 
-TODO: Briefly summarize what this lab was about and what you did at a high level.
+This lab was about analyzing data from my lab website and  questionaire. I looked at how users interacted with different pages and how classmates responded to questions. I also created graphs to better understand the data. At a high level, I created the graphs and collected the data from the website an survey easily.
 
 ## Methods
 
-TODO: Briefly talk about the methods you used to gather the data and any specific functions that helped reveal the patterns.
+We used Python with pandas and matplotlib to look at the data. For the website, we checked active users, views per page, and how long people spent on each page. For the survey, we counted how many people answered Yes or No to each question. We used bar graphs to show the patterns.
 
 ## Findings
 
-TODO: Briefly restate what you found out about your classmates by exploring the data. 
+From the survey, most classmates said “Yes” to playing or watching sports, with 12 “Yes” responses compared to 2 “No” responses. This shows that the majority of the class is interested in sports. Figure 2 shows the distribution of these responses.
 
-TODO: Briefly restate what your found out about your site usage by exploring the Google Analytics Data.
-
-Please refer to the figures you made in the notebook by title. For example, "As shown in figure 1..."
+From the website data, the questionnaire page had the highest average engagement time at 16 seconds per active user and 2.0 views per user. The homepage had 5 views and more total events, but a lower average engagement time of 2.8 seconds. The data page had the least activity, with only 1 view, 1 active user, and 0 seconds of engagement. Figure 1 shows the number of views for each page.
 
 ## Discussion
 
-TODO: Briefly mention how data gathering can help you answer specific questions.
+Collecting data like this helps us see which parts of a website people like and how they behave. It also shows us if surveys are working correctly, allowing me to answer any question that is asked.
+
 
 ## Future directions
 
-TODO: Briefly state what could be explored within the data in the future, building on what you already did. Your answer must be something that you could actually do with the data, related to this lab.
+Future work could include improving the questionnaire to get more responses and better data. We could also track how many people complete the questionnaire and compare that to how many visit the page. Another idea is to look at which pages users spend the most time on and see if that changes over time.
